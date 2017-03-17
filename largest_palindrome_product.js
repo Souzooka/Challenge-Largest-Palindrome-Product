@@ -19,7 +19,7 @@ module.exports = function(digits){
 
   for (var i = 1; i < loopIterations; i++) {
     for (var j = 1; j < loopIterations; j++) {
-      if (isPalindrome(j * i) && (j* i) > palindromeNumber) {
+      if (isPalindrome(j * i) && (j * i) > palindromeNumber) {
         factor_0 = i;
         factor_1 = j;
         palindromeNumber = (j * i);
