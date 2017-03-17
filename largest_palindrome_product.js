@@ -12,6 +12,13 @@ module.exports = function(digits){
 
   // do your work here
 
+  function isPalindrome(number) {
+    number = String(number);
+    reverseNumber = number.split("").reverse().join("");
+    return number === reverseNumber;
+  }
+
+  console.log(isPalindrome(9001), isPalindrome(9009));
 
 
   return {
