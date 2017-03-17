@@ -6,6 +6,7 @@
  *                   the palindromeNumber and the palindromeNumber itself.
  */
 module.exports = function(digits){
+  loopIterations = Math.pow(10, digits);
   var factor_0 = 0;
   var factor_1 = 0;
   var palindromeNumber = 0;
@@ -18,7 +19,6 @@ module.exports = function(digits){
     return number === reverseNumber;
   }
 
-  console.log(isPalindrome(9001), isPalindrome(9009));
 
 
   return {
