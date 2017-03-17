@@ -11,8 +11,6 @@ module.exports = function(digits){
   var factor_1 = 0;
   var palindromeNumber = 0;
 
-  // do your work here
-
   function isPalindrome(number) {
     number = String(number);
     reverseNumber = number.split("").reverse().join("");
@@ -24,12 +22,10 @@ module.exports = function(digits){
       if (isPalindrome(j * i) && (j* i) > palindromeNumber) {
         factor_0 = i;
         factor_1 = j;
-        palindromeNumber = (j*i);
+        palindromeNumber = (j * i);
       }
     }
   }
-
-
 
   return {
     factor_0 : factor_0,
