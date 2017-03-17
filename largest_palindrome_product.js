@@ -6,7 +6,7 @@
  *                   the palindromeNumber and the palindromeNumber itself.
  */
 module.exports = function(digits){
-  loopIterations = Math.pow(10, digits);
+  var loopIterations = Math.pow(10, digits);
   var factor_0 = 0;
   var factor_1 = 0;
   var palindromeNumber = 0;
